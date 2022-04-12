@@ -10,6 +10,7 @@ function UsersSearch() {
     const { setAlert } = useContext(AlertContext)
 
     const handleChange = (e) => setText(e.target.value)
+    
     const handleSubmit = async (e) => {
         e.preventDefault()
 

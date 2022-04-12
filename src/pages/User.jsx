@@ -3,7 +3,7 @@ import GithubContext from '../context/github/GithubContext'
 import { useParams, Link } from 'react-router-dom'
 import { FaCodepen, FaStore, FaUserFriends, FaUsers } from 'react-icons/fa'
 import RepoList from '../components/repos/RepoList'
-import { getUserAndRepos, getUserRepos } from '../context/github/GithubActions'
+import { getUserAndRepos} from '../context/github/GithubActions'
 
 function User() {
     const { user, loading, repos, dispatch } = useContext(GithubContext)
